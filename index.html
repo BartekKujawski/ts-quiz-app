@@ -26,13 +26,15 @@
                 <li class="option"><button class="option-btn" data-option="3">Option 4</button></li>
             </ul>
             <progress class="quiz-progress" value="1" min="1" max="10"></progress>
-            <button class="next-question">Next</button>
-            <div class="question-counter">1 of 10 questions</div>
+            <button class="next-question-btn">Next</button>
+            <div class="question-counter"><span class="current-question">1</span> of <span
+                    class="max-questions">10</span> questions</div>
         </section>
 
-        <dialog class="dialog-modal">
+        <div class="dialog-opened-bg"></div>
+        <dialog class="dialog-modal" open>
             <h3 class="dialog-title">End of Quiz!</h3>
-            <p class="final-score">6</p>
+            <p class="final-score">Final score: <span class="final-score-num">6</span></p>
             <button class="restart-btn">Play again!</button>
         </dialog>
     </main>

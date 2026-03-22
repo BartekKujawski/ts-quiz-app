@@ -151,6 +151,7 @@ hr {
 }
 
 .dialog-opened-bg.active {
+    position: fixed;
     display: block;
 }
 

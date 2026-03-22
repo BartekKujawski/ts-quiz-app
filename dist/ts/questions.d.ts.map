@@ -1,0 +1,1 @@
+{"version":3,"file":"questions.d.ts","sourceRoot":"","sources":["../../src/ts/questions.ts"],"names":[],"mappings":"AAAA,MAAM,MAAM,UAAU,GAAG,MAAM,GAAG,QAAQ,GAAG,MAAM,CAAC;AAEpD,MAAM,WAAW,QAAQ;IACrB,IAAI,EAAE,MAAM,CAAC;IACb,OAAO,EAAE,MAAM,EAAE,CAAC;IAClB,kBAAkB,EAAE,MAAM,CAAC;IAC3B,UAAU,EAAE,UAAU,CAAC;CAC1B;AAED,eAAO,MAAM,aAAa,EAAE,QAAQ,EAkEnC,CAAC"}

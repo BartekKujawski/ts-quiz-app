@@ -11,6 +11,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/styles.css">
     <title>Interactive Quiz</title>
+
+    <script type="module" src="./dist/ts/main.js" defer></script>
 </head>
 
 <body>
@@ -32,7 +34,7 @@
         </section>
 
         <div class="dialog-opened-bg"></div>
-        <dialog class="dialog-modal" open>
+        <dialog class="dialog-modal">
             <h3 class="dialog-title">End of Quiz!</h3>
             <p class="final-score">Final score: <span class="final-score-num">6</span></p>
             <button class="restart-btn">Play again!</button>

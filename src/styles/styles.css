@@ -63,11 +63,12 @@ hr {
 }
 
 .quiz-container .question-text {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
 }
 
 .quiz-container .options-list {
+    min-height: 200px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
